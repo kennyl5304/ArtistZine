@@ -121,6 +121,21 @@ ul{
 	list-style-type: none;
 }
 
+.window {
+	filter: drop-shadow(black -1rem 1rem 10px);
+}
+
+.window-body p {
+	text-shadow: 2px 2px 2px #000, 5px 5px 5px #000;
+}
+
+
+.simple{
+	font-family: "simple";  
+	font-style: italic;
+    text-shadow: -5px 5px 0 black;
+
+}
 
 
 /*text effects*/
@@ -318,4 +333,9 @@ ul{
 @font-face {
 	font-family: "punk";
 	src: url("fonts/Punk West.otf");
+}
+
+@font-face {
+	font-family: "simple";
+	src: url("fonts/American_Idiot.ttf");
 }
